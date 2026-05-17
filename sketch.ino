@@ -24,7 +24,7 @@ void loop(){
   digitalWrite(2, LOW);
   lcd.clear();
   lcd.setCursor(1, 0);
-  lcd.print("Prepare to go!");
+  lcd.print("Prepare to GO!");
   digitalWrite(3, HIGH);
   delay(1000);
   digitalWrite(3, LOW);
