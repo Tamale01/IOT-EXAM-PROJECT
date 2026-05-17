@@ -44,7 +44,7 @@ void loop(){
   digitalWrite(4, LOW);
   lcd.clear();
   lcd.setCursor(0, 0);
-  lcd.print("Prepare to stop!");
+  lcd.print("Prepare to Stop!");
   digitalWrite(3, HIGH);
   delay(1000);
   digitalWrite(3, LOW);
